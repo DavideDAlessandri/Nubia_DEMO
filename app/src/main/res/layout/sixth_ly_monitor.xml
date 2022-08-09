@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rotation="180"
+    android:keepScreenOn="true">
+
+    <FrameLayout
+        android:id="@+id/layout6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/monitor_background" />
+
+        <ToggleButton
+            android:id="@+id/checkBoxA1"
+            android:layout_width="51dp"
+            android:layout_height="29dp"
+            android:layout_gravity="center"
+            android:background="@drawable/custum_toggle_button3"
+            android:fontFamily="@font/downlink_bold"
+            android:gravity="center"
+            android:padding="5dp"
+            android:rotation="90"
+            android:shadowColor="#333333"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="5"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textOff="A1"
+            android:textOn="A1"
+            android:textSize="12sp"
+            android:translationX="50dp"
+            android:translationY="-268dp" />
+
+        <ToggleButton
+            android:id="@+id/checkBoxA2"
+            android:layout_width="51dp"
+            android:layout_height="29dp"
+            android:layout_gravity="center"
+            android:background="@drawable/custum_toggle_button3"
+            android:fontFamily="@font/downlink_bold"
+            android:padding="5dp"
+            android:rotation="90"
+            android:shadowColor="#333333"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="5"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textOff="A2"
+            android:textOn="A2"
+            android:textSize="12sp"
+            android:translationX="11dp"
+            android:translationY="-268dp" />
+
+        <ToggleButton
+            android:id="@+id/checkBoxA3"
+            android:layout_width="51dp"
+            android:layout_height="29dp"
+            android:layout_gravity="center"
+            android:background="@drawable/custum_toggle_button3"
+            android:fontFamily="@font/downlink_bold"
+            android:padding="5dp"
+            android:rotation="90"
+            android:shadowColor="#333333"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="5"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textOff="A3"
+            android:textOn="A3"
+            android:textSize="12sp"
+            android:translationX="-28dp"
+            android:translationY="-268dp" />
+
+        <ToggleButton
+            android:id="@+id/checkBoxA4"
+            android:layout_width="51dp"
+            android:layout_height="29dp"
+            android:layout_gravity="center"
+            android:background="@drawable/custum_toggle_button3"
+            android:fontFamily="@font/downlink_bold"
+            android:padding="5dp"
+            android:rotation="90"
+            android:shadowColor="#333333"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="5"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textOff="A4"
+            android:textOn="A4"
+            android:textSize="12sp"
+            android:translationX="50dp"
+            android:translationY="-210dp" />
+
+        <ToggleButton
+            android:id="@+id/checkBoxA5"
+            android:layout_width="51dp"
+            android:layout_height="29dp"
+            android:layout_gravity="center"
+            android:background="@drawable/custum_toggle_button3"
+            android:fontFamily="@font/downlink_bold"
+            android:padding="5dp"
+            android:rotation="90"
+            android:shadowColor="#333333"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="5"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textOff="A5"
+            android:textOn="A5"
+            android:textSize="12sp"
+            android:translationX="11dp"
+            android:translationY="-210dp" />
+
+        <ToggleButton
+            android:id="@+id/checkBoxA6"
+            android:layout_width="51dp"
+            android:layout_height="29dp"
+            android:layout_gravity="center"
+            android:background="@drawable/custum_toggle_button3"
+            android:fontFamily="@font/downlink_bold"
+            android:padding="5dp"
+            android:rotation="90"
+            android:shadowColor="#333333"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="5"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textOff="A6"
+            android:textOn="A6"
+            android:textSize="12sp"
+            android:translationX="-28dp"
+            android:translationY="-210dp" />
+
+        <SeekBar
+            android:id="@+id/seekBarLimitA1"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:thumb="@drawable/seek_bar_thumb_red_big"
+            android:progressBackgroundTint="#0000ffff"
+            android:progressTint="#0000ffff"
+            android:layout_gravity="center"
+            android:translationX="0dp"
+            android:translationY="-213px" />
+
+        <SeekBar
+            android:id="@+id/seekBarLimitA2"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:thumb="@drawable/seek_bar_thumb_red_big"
+            android:progressBackgroundTint="#0000ffff"
+            android:progressTint="#0000ffff"
+            android:layout_gravity="center"
+            android:translationX="0dp"
+            android:translationY="-213px" />
+
+        <SeekBar
+            android:id="@+id/seekBarLimitA3"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:thumb="@drawable/seek_bar_thumb_red_big"
+            android:progressBackgroundTint="#0000ffff"
+            android:progressTint="#0000ffff"
+            android:layout_gravity="center"
+            android:translationX="0dp"
+            android:translationY="-213px" />
+
+        <SeekBar
+            android:id="@+id/seekBarLimitA4"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:thumb="@drawable/seek_bar_thumb_red_big"
+            android:progressBackgroundTint="#0000ffff"
+            android:progressTint="#0000ffff"
+            android:layout_gravity="center"
+            android:translationX="0dp"
+            android:translationY="-213px" />
+
+        <SeekBar
+            android:id="@+id/seekBarLimitA5"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:thumb="@drawable/seek_bar_thumb_red_big"
+            android:progressBackgroundTint="#0000ffff"
+            android:progressTint="#0000ffff"
+            android:layout_gravity="center"
+            android:translationX="0dp"
+            android:translationY="-213px" />
+
+        <SeekBar
+            android:id="@+id/seekBarLimitA6"
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:thumb="@drawable/seek_bar_thumb_red_big"
+            android:progressBackgroundTint="#0000ffff"
+            android:progressTint="#0000ffff"
+            android:layout_gravity="center"
+            android:translationX="0dp"
+            android:translationY="-213px" />
+
+        <ProgressBar
+            android:id="@+id/progressBarOne6"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="81dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center"
+            android:max="100"
+            android:progressDrawable="@drawable/custom_progress_bg_green"
+            android:translationX="1dp"
+            android:translationY="-61dp" />
+
+        <ProgressBar
+            android:id="@+id/progressBarTwo6"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="81dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center"
+            android:progressDrawable="@drawable/custom_progress_bg_green"
+            android:max="100"
+            android:translationX="1dp"
+            android:translationY="-23dp" />
+
+        <ProgressBar
+            android:id="@+id/progressBarThree6"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="81dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center"
+            android:progressDrawable="@drawable/custom_progress_bg_green"
+            android:max="100"
+            android:translationX="1dp"
+            android:translationY="15dp" />
+
+        <ProgressBar
+            android:id="@+id/progressBarFour6"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="81dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center"
+            android:progressDrawable="@drawable/custom_progress_bg_green"
+            android:max="100"
+            android:translationX="1dp"
+            android:translationY="58dp" />
+
+        <ProgressBar
+            android:id="@+id/progressBarFive6"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="81dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center"
+            android:progressDrawable="@drawable/custom_progress_bg_green"
+            android:max="100"
+            android:translationX="1dp"
+            android:translationY="96dp" />
+
+        <ProgressBar
+            android:id="@+id/progressBarSix6"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="81dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center"
+            android:progressDrawable="@drawable/custom_progress_bg_green"
+            android:max="100"
+            android:translationX="1dp"
+            android:translationY="134dp" />
+
+        <TextView
+            android:id="@+id/LimitText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/frau_2"
+            android:rotation="90"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:translationX="54dp"
+            android:translationY="292dp"
+            android:textSize="35sp" />
+
+    </FrameLayout>
+
+</LinearLayout>

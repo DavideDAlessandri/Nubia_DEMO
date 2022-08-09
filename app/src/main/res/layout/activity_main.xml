@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:backgroundTint="#000000"
+    android:foregroundTint="#000000"
+    android:rotation="180"
+    android:keepScreenOn="true">
+
+    <FrameLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/Background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/main_background" />
+
+
+        <Button
+            android:id="@+id/RunPage"
+            android:layout_width="155dp"
+            android:layout_height="41dp"
+            android:layout_gravity="center"
+            android:background="#0000ffff"
+            android:rotation="90"
+            android:translationX="50dp"
+            android:translationY="-242dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/TeachPage"
+            android:layout_width="180dp"
+            android:layout_height="41dp"
+            android:layout_gravity="center"
+            android:background="#0000ffff"
+            android:rotation="90"
+            android:translationX="-1dp"
+            android:translationY="-230dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/HandPage"
+            android:layout_width="200dp"
+            android:layout_height="41dp"
+            android:layout_gravity="center"
+            android:background="#0000ffff"
+            android:rotation="90"
+            android:translationX="-50dp"
+            android:translationY="-220dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/SettingsPage"
+            android:layout_width="185dp"
+            android:layout_height="41dp"
+            android:layout_gravity="center"
+            android:background="#0000ffff"
+            android:rotation="90"
+            android:translationX="50dp"
+            android:translationY="227dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/MonitorPage"
+            android:layout_width="165dp"
+            android:layout_height="41dp"
+            android:layout_gravity="center"
+            android:background="#0000ffff"
+            android:rotation="90"
+            android:translationX="-1dp"
+            android:translationY="238dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/AddOnsPage"
+            android:layout_width="146dp"
+            android:layout_height="41dp"
+            android:layout_gravity="center"
+            android:background="#0000ffff"
+            android:rotation="90"
+            android:translationX="-50dp"
+            android:translationY="249dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/imageRun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/run" />
+
+        <ImageView
+            android:id="@+id/imageTeach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/teach" />
+
+        <ImageView
+            android:id="@+id/imageHand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/hand_guide" />
+
+        <ImageView
+            android:id="@+id/imageSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/settings" />
+
+        <ImageView
+            android:id="@+id/imageMonitor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/monitor" />
+
+        <ImageView
+            android:id="@+id/imageAddOns"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/add_ons" />
+
+        <ImageView
+            android:id="@+id/tryConnection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/stat_notify_sync"
+            android:rotation="90"
+            android:translationX="47dp"
+            android:translationY="-52dp"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:rotation="180"
+            android:translationX="47dp"
+            android:translationY="-80dp"
+            app:srcCompat="@android:drawable/ic_delete" />
+
+
+    </FrameLayout>
+
+</LinearLayout>

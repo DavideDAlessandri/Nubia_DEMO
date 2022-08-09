@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rotation="180"
+    android:keepScreenOn="true">
+
+    <FrameLayout
+        android:id="@+id/layout8"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/gripper_bg" />
+
+        <TextView
+            android:id="@+id/gripperStatus"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/ehsmb"
+            android:rotation="90"
+            android:text="IN POS."
+            android:textColor="#78c9fd"
+            android:textColorHint="#78c9fd"
+            android:textSize="36sp"
+            android:translationX="13dp"
+            android:translationY="90dp"/>
+
+        <TextView
+            android:id="@+id/gripperForce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/downlink_bold"
+            android:rotation="90"
+            android:text="0"
+            android:textColor="#00a8e8"
+            android:textColorHint="#78c9fd"
+            android:textSize="25sp"
+            android:translationX="44dp"
+            android:translationY="-95dp" />
+
+        <TextView
+            android:id="@+id/gripperSpeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/downlink_bold"
+            android:rotation="90"
+            android:text="0"
+            android:textColor="#00a8e8"
+            android:textColorHint="#78c9fd"
+            android:textSize="25sp"
+            android:translationX="1dp"
+            android:translationY="-95dp" />
+
+        <TextView
+            android:id="@+id/gripperPos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/downlink_bold"
+            android:rotation="90"
+            android:text="0"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="25sp"
+            android:translationX="-46dp"
+            android:translationY="-93dp" />
+
+        <TextView
+            android:id="@+id/gripperCursPos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/downlink_bold"
+            android:rotation="90"
+            android:text="0"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="25sp"
+            android:translationX="-49dp"
+            android:translationY="143dp" />
+
+        <SeekBar
+            android:id="@+id/seekBarForce"
+            android:layout_width="114dp"
+            android:layout_height="wrap_content"
+            android:thumb="@drawable/seek_bar_thumb_rose"
+            android:progressBackgroundTint="#0000ffff"
+            android:progressTint="#0000ffff"
+            android:layout_gravity="center"
+            android:rotation="90"
+            android:translationX="52dp"
+            android:translationY="-254px" />
+
+        <SeekBar
+            android:id="@+id/seekBarSpeed"
+            android:layout_width="114dp"
+            android:layout_height="wrap_content"
+            android:thumb="@drawable/seek_bar_thumb_rose"
+            android:progressBackgroundTint="#0000ffff"
+            android:progressTint="#0000ffff"
+            android:layout_gravity="center"
+            android:rotation="90"
+            android:translationX="8dp"
+            android:translationY="-254px" />
+
+        <SeekBar
+            android:id="@+id/seekBarPos"
+            android:layout_width="114dp"
+            android:layout_height="wrap_content"
+            android:thumb="@drawable/seek_bar_thumb_rose"
+            android:progressBackgroundTint="#0000ffff"
+            android:progressTint="#0000ffff"
+            android:layout_gravity="center"
+            android:rotation="90"
+            android:translationX="-39dp"
+            android:translationY="-254px" />
+
+        <Button
+            android:id="@+id/openButton"
+            android:layout_width="58dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ripple_effect"
+            android:rotation="0"
+            android:translationX="35dp"
+            android:translationY="-273dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/closeButton"
+            android:layout_width="58dp"
+            android:layout_height="95dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ripple_effect"
+            android:rotation="0"
+            android:translationX="-35dp"
+            android:translationY="-273dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/goButton"
+            android:layout_width="37dp"
+            android:layout_height="99dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ripple_effect"
+            android:rotation="0"
+            android:translationX="-46dp"
+            android:translationY="5dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/gripperR1"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:translationX="-27dp"
+            android:translationY="230dp"
+            app:srcCompat="@drawable/gripper_one" />
+
+        <ImageView
+            android:id="@+id/gripperL1"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:translationX="-27dp"
+            android:translationY="283dp"
+            app:srcCompat="@drawable/gripper_two" />
+
+        <ImageView
+            android:id="@+id/gripperR2"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:translationX="-27dp"
+            android:translationY="242dp"
+            app:srcCompat="@drawable/gripper_one" />
+
+        <ImageView
+            android:id="@+id/gripperL2"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:translationX="-27dp"
+            android:translationY="275dp"
+            app:srcCompat="@drawable/gripper_two" />
+
+        <ImageView
+            android:id="@+id/gripperR3"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:translationX="-27dp"
+            android:translationY="250dp"
+            app:srcCompat="@drawable/gripper_one" />
+
+        <ImageView
+            android:id="@+id/gripperL3"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:translationX="-27dp"
+            android:translationY="265dp"
+            app:srcCompat="@drawable/gripper_two" />
+
+        <ImageView
+            android:id="@+id/gripperR4"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:translationX="-27dp"
+            android:translationY="256dp"
+            app:srcCompat="@drawable/gripper_one" />
+
+        <ImageView
+            android:id="@+id/gripperL4"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:translationX="-27dp"
+            android:translationY="261dp"
+            app:srcCompat="@drawable/gripper_two" />
+
+        <ImageView
+            android:id="@+id/objectIn"
+            android:layout_width="26dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:translationX="-44dp"
+            android:translationY="257dp"
+            app:srcCompat="@drawable/obj_int" />
+
+        <ImageView
+            android:id="@+id/objectOutL"
+            android:layout_width="26dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:translationX="-44dp"
+            android:translationY="214dp"
+            app:srcCompat="@drawable/obj_ext" />
+
+        <ImageView
+            android:id="@+id/objectOutR"
+            android:layout_width="26dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:translationX="-44dp"
+            android:translationY="299dp"
+            android:rotation="180"
+            app:srcCompat="@drawable/obj_ext" />
+
+
+    </FrameLayout>
+
+</LinearLayout>

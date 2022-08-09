@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rotation="180"
+    android:keepScreenOn="true">
+
+    <FrameLayout
+        android:id="@+id/layout4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <ToggleButton
+            android:id="@+id/displayButton"
+            android:layout_width="150dp"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:background="@drawable/custum_toggle_button1"
+            android:fontFamily="@font/downlink_bold"
+            android:padding="5dp"
+            android:rotation="90"
+            android:shadowColor="#333333"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="5"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textOff="Display 1"
+            android:textOn="Display 2"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/connectedImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/presence_online"
+            android:layout_gravity="center"
+            android:translationY="90dp"/>
+
+        <TextView
+            android:id="@+id/battery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/downlink_bold"
+            android:rotation="90"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="12sp"
+            android:translationY="-100dp" />
+
+        <ImageView
+            android:id="@+id/charging"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/ic_lock_idle_charging"
+            android:layout_gravity="center"
+            android:rotation="90"
+            android:translationX="32dp"/>
+
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rotation="180"
+    android:keepScreenOn="true">
+
+    <FrameLayout
+        android:id="@+id/layout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/marqueeText"
+            android:layout_width="700dp"
+            android:layout_height="457dp"
+            android:layout_marginLeft="-470dp"
+            android:ellipsize="marquee"
+            android:fontFamily="@font/ehsmb"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:padding="2dp"
+            android:rotation="90"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="70sp"
+            android:translationX="-16dp"
+            android:translationY="120dp" />
+
+        <ImageView
+            android:id="@+id/menu"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:translationY="453dp"
+            android:translationX="-2dp"
+            app:srcCompat="@drawable/runtime_bg" />
+
+        <ImageView
+            android:id="@+id/color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/statusbar_green" />
+
+        <ImageView
+            android:id="@+id/label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/runtime_green" />
+
+        <TextView
+            android:id="@+id/step1"
+            android:text="3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/downlink_bold"
+            android:rotation="90"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="25sp"
+            android:translationX="5dp"
+            android:translationY="166dp" />
+
+        <TextView
+            android:id="@+id/step2"
+            android:text="10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/downlink_bold"
+            android:rotation="90"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:translationY="204dp"
+            android:translationX="-25dp"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/etf"
+            android:text="426"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/downlink_bold"
+            android:rotation="90"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:textSize="25sp"
+            android:translationX="8dp"
+            android:translationY="280dp" />
+
+        <ImageView
+            android:id="@+id/proximity"
+            android:layout_width="30dp"
+            android:layout_height="432dp"
+            android:layout_gravity="center"
+            android:translationX="49dp"
+            android:translationY="-29dp"
+            app:srcCompat="@drawable/runtime_bar" />
+
+        <ProgressBar
+            android:id="@+id/progressBarProximity"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="295dp"
+            android:layout_height="5dp"
+            android:layout_gravity="center"
+            android:rotation="90"
+            android:progressDrawable="@drawable/custom_progress_bg_green"
+            android:translationX="60dp"
+            android:translationY="-28dp" />
+
+        <Button
+            android:id="@+id/switchColorButton"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:background="#0000ffff"
+            android:backgroundTint="#0000ffff"
+            android:rotation="90"
+            android:translationX="45dp"
+            android:translationY="40dp"
+            app:iconTint="#0000ffff" />
+
+
+    </FrameLayout>
+
+</LinearLayout>
